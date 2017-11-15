@@ -180,7 +180,7 @@ public class student extends javax.swing.JFrame {
           database db=new database();
      try{  
            pst=db.con.prepareStatement("select teachesby from courses where coursename LIKE ?"); 
-           pst.setString(1,'/"+(String)jComboBox1.getSelectedItem()"");
+          // pst.setString(1,'/"+(String)jComboBox1.getSelectedItem()"");
              //this replaces the 1st  "?" in the query for username
              
                 //this replaces the 2st  "?" in the query for password
